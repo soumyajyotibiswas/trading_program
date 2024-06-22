@@ -163,7 +163,8 @@ cython_debug/
 #.idea/
 
 # Files
-temp_file.py
+src/program_secrets.py
+src/temp_file.py
 
 # Directory
 data/*
