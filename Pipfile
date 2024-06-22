@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi-941"
+
+[packages]
+py5paisa = {version = "*", index = "pypi-941"}
+pylint = "*"
+tabulate = "*"
+
+[dev-packages]
+pylint = {version = "*", index = "pypi-941"}
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.3"
