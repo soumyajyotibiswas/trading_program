@@ -13,6 +13,7 @@ This repository contains a trading program with various components, including da
   - [Data Files](#data-files)
   - [Logging](#logging)
   - [Source Code](#source-code)
+  - [Running the program](#running-the-program)
   - [Additional Information](#additional-information)
 
 ## Project Structure
@@ -120,6 +121,14 @@ The source code is located in the `src` directory and includes various modules t
 - `program_quotes.py`: Manages market quotes.
 - `program_secrets.py`: Stores sensitive information and credentials.
 - `temp_file.py`: Temporary file for testing or development purposes.
+
+## Running the program
+
+- First time run will download the scrip file
+![alt text](images/scrip_download_screenshot.png)
+
+- Main menu screenshot
+![alt text](images/main_menu_screenshot.png)
 
 ## Additional Information
 
